@@ -12,8 +12,9 @@
 		7FB43B7C2697111100D0397F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB43B7B2697111100D0397F /* ViewController.swift */; };
 		7FB43B7F2697111100D0397F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB43B7D2697111100D0397F /* Main.storyboard */; };
 		7FB43B822697111100D0397F /* MyPlaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FB43B802697111100D0397F /* MyPlaces.xcdatamodeld */; };
-		7FB43B842697111200D0397F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB43B832697111200D0397F /* Assets.xcassets */; };
 		7FB43B872697111200D0397F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB43B852697111200D0397F /* LaunchScreen.storyboard */; };
+		7FB43B8F2697120B00D0397F /* Extension DataSource + Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB43B8E2697120B00D0397F /* Extension DataSource + Delegates.swift */; };
+		7FB43B9126971F6800D0397F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB43B9026971F6800D0397F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +24,10 @@
 		7FB43B7B2697111100D0397F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7FB43B7E2697111100D0397F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FB43B812697111100D0397F /* MyPlaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyPlaces.xcdatamodel; sourceTree = "<group>"; };
-		7FB43B832697111200D0397F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB43B862697111200D0397F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FB43B882697111200D0397F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB43B8E2697120B00D0397F /* Extension DataSource + Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension DataSource + Delegates.swift"; sourceTree = "<group>"; };
+		7FB43B9026971F6800D0397F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../Volumes/SP PHD U3/курсы/[SwiftBook] Программирование на Swift/05. Приложение на основе UITableView (Swift 5)/05. Work with images/MyPlaces/MyPlaces/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 				7FB43B772697111100D0397F /* AppDelegate.swift */,
 				7FB43B792697111100D0397F /* SceneDelegate.swift */,
 				7FB43B7B2697111100D0397F /* ViewController.swift */,
+				7FB43B8E2697120B00D0397F /* Extension DataSource + Delegates.swift */,
 				7FB43B7D2697111100D0397F /* Main.storyboard */,
-				7FB43B832697111200D0397F /* Assets.xcassets */,
+				7FB43B9026971F6800D0397F /* Assets.xcassets */,
 				7FB43B852697111200D0397F /* LaunchScreen.storyboard */,
 				7FB43B882697111200D0397F /* Info.plist */,
 				7FB43B802697111100D0397F /* MyPlaces.xcdatamodeld */,
@@ -128,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FB43B872697111200D0397F /* LaunchScreen.storyboard in Resources */,
-				7FB43B842697111200D0397F /* Assets.xcassets in Resources */,
+				7FB43B9126971F6800D0397F /* Assets.xcassets in Resources */,
 				7FB43B7F2697111100D0397F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +145,7 @@
 			files = (
 				7FB43B7C2697111100D0397F /* ViewController.swift in Sources */,
 				7FB43B782697111100D0397F /* AppDelegate.swift in Sources */,
+				7FB43B8F2697120B00D0397F /* Extension DataSource + Delegates.swift in Sources */,
 				7FB43B7A2697111100D0397F /* SceneDelegate.swift in Sources */,
 				7FB43B822697111100D0397F /* MyPlaces.xcdatamodeld in Sources */,
 			);
