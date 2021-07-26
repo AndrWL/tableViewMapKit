@@ -1,9 +1,3 @@
-//
-//  Extension DataSource + Delegates.swift
-//  MyPlaces
-//
-//  Created by Andrey on 08.07.2021.
-//
 
 import UIKit
 

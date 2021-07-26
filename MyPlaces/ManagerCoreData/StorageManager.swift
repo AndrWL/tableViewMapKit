@@ -1,9 +1,4 @@
-//
-//  StorageManager.swift
-//  MyPlaces
-//
-//  Created by Andrey on 09.07.2021.
-//
+
 
 import CoreData
 import UIKit
